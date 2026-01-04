@@ -13,5 +13,5 @@ print(f"Hari kelahiran anda adalah = {tanggal_lahir:%A}")
 hari_sekarang = dt.date.today() # untuk menghitung umur
 print(f"Hari ini adalah tanggal = {hari_sekarang}")
 umur = hari_sekarang - tanggal_lahir
-umur_tahun = umur.days //365
+umur_tahun = umur.days // 365
 print(f"Umur anda adalah = {umur_tahun} tahun")
